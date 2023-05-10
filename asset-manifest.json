@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Altrata/static/css/main.d481b237.css",
+    "main.js": "/Altrata/static/js/main.117f311b.js",
+    "static/js/787.4005a6f5.chunk.js": "/Altrata/static/js/787.4005a6f5.chunk.js",
+    "index.html": "/Altrata/index.html",
+    "main.d481b237.css.map": "/Altrata/static/css/main.d481b237.css.map",
+    "main.117f311b.js.map": "/Altrata/static/js/main.117f311b.js.map",
+    "787.4005a6f5.chunk.js.map": "/Altrata/static/js/787.4005a6f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d481b237.css",
+    "static/js/main.117f311b.js"
+  ]
+}
