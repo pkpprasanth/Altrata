@@ -22,5 +22,11 @@
   },
   "include": [
     "src"
-  ]
+  ],
+  "watchOptions": {
+    "excludeDirectories": [
+      "jest-setup",
+      "coverage"
+    ]
+  }
 }
