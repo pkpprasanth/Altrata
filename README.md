@@ -21,6 +21,7 @@ The project is structured with a clear organization for both frontend and backen
 ## Getting Started
 
 Follow the steps below to set up and run the project on your local machine:
+```
 
 ### Backend Setup
 
