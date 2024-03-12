@@ -25,7 +25,7 @@ Follow the steps below to set up and run the project on your local machine:
 ### Backend Setup
 
 1. Navigate to the `backend` directory.
-   ```bash
+   ```
    cd src/backend
    ```
 
