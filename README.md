@@ -9,14 +9,14 @@ This project showcases a simple full-stack application using React for the front
 
 The project is structured with a clear organization for both frontend and backend:
 
-  - **`backend/`**: Node.js with TypeScript backend.
-    - **`controllers/`**: Controllers for handling HTTP requests.
-    - **`models/`**: Interfaces defining the data structures.
-    - **`repositories/`**: Simulated DynamoDB operations.
-    - **`routes/`**: Define routes for different functionalities.
-    - **`services/`**: Business logic for different features.
-  - **`frontend/`**: React with TypeScript frontend.
-    - **`components/`**: React components for different parts of the UI.
+  - backend/`**: Node.js with TypeScript backend.
+    - controllers/`**: Controllers for handling HTTP requests.
+    - models/`**: Interfaces defining the data structures.
+    - repositories/`**: Simulated DynamoDB operations.
+    - routes/`**: Define routes for different functionalities.
+    - services/`**: Business logic for different features.
+  - frontend/`**: React with TypeScript frontend.
+    - components/`**: React components for different parts of the UI.
 
 ## Getting Started
 
