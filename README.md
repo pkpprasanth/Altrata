@@ -1,26 +1,66 @@
-## Host Demo Link
 
- [Demo](https://pkpprasanth.github.io/Altrata/)
 
-## Calendar Requirements
+```markdown
+# Assignment Jacksclub
 
-- A reusable calendar component which has a `date` prop.
-- The first row of the calendar should display the `date` prop's month and year.
-- The second row of the calendar should display the days of the week, one per column.
-- The following rows should display the dates for the `date` prop's month and year, appropriately aligned with the day headings.
-- The appropriate date cell should be highlighted based on the `date` prop.
+This project showcases a simple full-stack application using React for the front end and Node.js with TypeScript for the backend. The backend uses Express and simulates DynamoDB operations, and the communication between the frontend and backend is facilitated by Axios. The UI components are built using Ant Design.
 
-## Calendar Screen
+## Project Structure
 
-![alt text](https://github.com/pkpprasanth/Altrata/blob/master/src/assets/1.png)
+The project is structured with a clear organization for both frontend and backend:
 
-## Test Cases 
-- Showing the component can take a date prop and renders the correct calendar through a set of component tests. You may use tools such as `react-testing-library` to achieve this, or other methods.
-- Good code and component separation of concerns.
-- Careful consideration of what types are used in the solution.
-- Suitable use of JavaScript libraries and functional programming techniques where appropriate.
- Here are a couple more test cases test the behavior of the Calendar component
- 
-## Test Cases Screen
+  - **`backend/`**: Node.js with TypeScript backend.
+    - **`controllers/`**: Controllers for handling HTTP requests.
+    - **`models/`**: Interfaces defining the data structures.
+    - **`repositories/`**: Simulated DynamoDB operations.
+    - **`routes/`**: Define routes for different functionalities.
+    - **`services/`**: Business logic for different features.
+  - **`frontend/`**: React with TypeScript frontend.
+    - **`components/`**: React components for different parts of the UI.
 
-![alt text](https://github.com/pkpprasanth/Altrata/blob/master/src/assets/2.png)
+## Getting Started
+
+Follow the steps below to set up and run the project on your local machine:
+
+### Backend Setup
+
+1. Navigate to the `backend` directory.
+   ```bash
+   cd src/backend
+   ```
+
+2. Install dependencies.
+   ```bash
+   npm install
+   ```
+
+3. Start the backend server.
+   ```bash
+   npm start
+   ```
+
+   The backend server will run on `http://localhost:4000`.
+
+### Frontend Setup
+
+1. Navigate to the `frontend` directory.
+   ```bash
+   cd frontend
+   ```
+
+2. Install dependencies.
+   ```bash
+   npm install
+   ```
+
+3. Start the frontend development server.
+   ```bash
+   npm start
+   ```
+
+   The React app will run on `http://localhost:3000`.
+
+## Usage
+
+- Open your browser and go to `http://localhost:3000` to access the React app.
+- Use the provided UI to retrieve the user's balance and process transactions.
