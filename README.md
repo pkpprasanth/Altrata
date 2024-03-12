@@ -25,17 +25,17 @@ Follow the steps below to set up and run the project on your local machine:
 ### Backend Setup
 
 1. Navigate to the `backend` directory.
-   ```
+   ```bash
    cd src/backend
    ```
 
 2. Install dependencies.
-   ```
+   ```bash
    npm install
    ```
 
 3. Start the backend server.
-   ```
+   ```bash
    npm start
    ```
 
@@ -44,17 +44,17 @@ Follow the steps below to set up and run the project on your local machine:
 ### Frontend Setup
 
 1. Navigate to the `frontend` directory.
-   ```
+   ```bash
    cd frontend
    ```
 
 2. Install dependencies.
-   ```
+   ```bash
    npm install
    ```
 
 3. Start the frontend development server.
-   ```
+   ```bash
    npm start
    ```
 
